@@ -246,30 +246,7 @@ with your own API Key.
 
 ---
 
-## 📸 Screenshots
 
-Create a folder named:
-
-```
-screenshots/
-```
-
-Add screenshots such as:
-
-- Login Screen
-- Admin Dashboard
-- Teacher Dashboard
-- Student Dashboard
-- Parent Dashboard
-- Driver Dashboard
-- AI Student Mentor
-- AI Teacher Assistant
-- QR Attendance
-- Live Bus Tracking
-- Timetable
-- Results
-
----
 
 ## 🎯 Future Improvements
 
