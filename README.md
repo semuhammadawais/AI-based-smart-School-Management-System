@@ -1,137 +1,325 @@
-# School Management System
+# 🎓 AI-Based Smart School Management System
 
-## Table of Contents
+An AI-powered School Management System developed as a Final Year Project (FYP) using **React Native** and **Firebase**. The application provides separate portals for Admin, Teachers, Students, Parents, and Drivers, offering real-time communication, attendance management, AI-powered academic assistance, and live school bus tracking.
 
-- [Project Overview](#project-overview)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Features](#features)
-  - [Admin Portal](#admin-portal)
-  - [Teacher Portal](#teacher-portal)
-  - [Student Portal](#student-portal)
-- [Project Structure](#project-structure)
-- [Contributors](#contributors)
-- [Submission Guidelines](#submission-guidelines)
-- [Contact](#contact)
+---
 
-  
+## 📱 Features
 
-## Project Overview
+### 👨‍💼 Admin Module
+- Secure Admin Authentication
+- Student Management
+- Teacher Management
+- Parent Management
+- Driver Management
+- Subject Management
+- Timetable Management
+- Attendance Reports
+- QR Code Attendance Generation
+- Live Attendance Monitoring
+- Event & Announcement Management
+- School Rules Management
+- AI Integration for Administrative Tasks
 
-This project involves creating a mobile application for a School Management System using React Native and Firebase. The system will support three types of users: Admin, Teacher, and Student, each with different functionalities.
+---
 
-## Technologies Used
+### 👨‍🏫 Teacher Module
+- Teacher Dashboard
+- Student Attendance using QR Scanner
+- Attendance Reports
+- Add & Update Student Marks
+- Student Marksheet Management
+- AI Teacher Assistant
+- View Timetable
+- School Rules
+- Teacher Profile
 
-- **React Native CLI** (No Expo)
-- **Firebase**
-  - Authentication
-  - Firestore
-  - Storage
-  - Realtime Database
-- **Third-party Packages**:
-  - `@react-native-async-storage/async-storage`
-  - `@react-native-community/checkbox`
-  - `@react-native-firebase/app`
-  - `@react-native-firebase/auth`
-  - `@react-native-firebase/database`
-  - `@react-native-firebase/firestore`
-  - `@react-native-firebase/storage`
-  - `@react-navigation/native`
-  - `@react-navigation/stack`
-  - `react-native-bouncy-checkbox`
-  - `react-native-chart-kit`
-  - `react-native-date-picker`
-  - `react-native-gesture-handler`
-  - `react-native-html-to-pdf`
-  - `react-native-image-picker`
-  - `react-native-linear-gradient`
-  - `react-native-paper`
-  - `react-native-picker-select`
-  - `react-native-safe-area-context`
-  - `react-native-screens`
-  - `react-native-share`
-  - `react-native-svg`
-  - `react-native-vector-icons`
+---
 
-## Installation
+### 👨‍🎓 Student Module
+- Student Dashboard
+- View Attendance
+- View Timetable
+- View Subjects
+- View Results & Marksheet
+- AI Student Mentor
+- Events
+- School Rules
+- Student Profile
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/JavTahir/School-Management-System.git
-   cd sms
-   ```
-2. **Install dependencies:**
-   ```sh
-   npm install
-   ```
-3. **Set up Firebase:**
-   - Create a Firebase project at Firebase Console.
-   - Add your projects `google-services.json` file in android/app/.
+---
 
-## Running the Project
+### 👨‍👩‍👦 Parent Module
+- Parent Dashboard
+- Child Attendance Monitoring
+- Child Results
+- AI Performance Overview
+- School Events
+- School Rules
+- Live School Bus Tracking
+- Parent Profile
 
-1. **Start the Metro server:**
-   ```sh
-   npm start
-   ```
-2. **Run on Android:**
-   ```sh
-   npm run android
-   ```
-3. **Run on iOS:**
-   ```sh
-   npm run ios
-   ```
+---
 
-## Features
+### 🚌 Driver Module
+- Driver Dashboard
+- Real-Time Bus Location Sharing
+- Live GPS Tracking
 
-### Admin Portal
+---
 
-- **Admin Account:** Pre-created account (no sign-up required).
-- **Manage Classes and Teachers:** Assign or remove classes for teachers.
-- **Student Management:** Create, view, edit, and delete student records.
-- **Fee Management:** Insert, view, update, and delete fee status for students.
-- **Reports:**
-  - **Student Age Record:** Detailed age report of students.
-  - **Result Sheet:** Overall class results.
-  - **Timetable and Syllabus:** Upload and remove yearly timetable and class syllabi.
-  - **PDF Reports:** Download reports in PDF format using a third-party package.
+## 🤖 AI Features
 
-### Teacher Portal
+The system integrates AI to improve the educational experience.
 
-- **Login:** Each teacher has individual login credentials.
-- **Class Management:** View, search, insert, update, and delete student marks.
-- **CRUD Operations:** Perform CRUD operations for assigned classes only.
+### Student AI Mentor
+- Performance Analysis
+- Personalized Study Suggestions
+- Subject-wise Improvement Tips
+- Motivation & Learning Guidance
 
-### Student Portal
+### Teacher AI Assistant
+- Student Performance Insights
+- Teaching Recommendations
+- Classroom Assistance
 
-- **Login:** Each student has individual login credentials.
-- **Marks Viewing:** View marks for all subjects and terms (First, Mid, Final).
-- **Fee Status:** View fee status and payment history.
-- **Timetable and Syllabus:** View class timetable and syllabus.
+### Parent AI Overview
+- Child Performance Summary
+- Attendance Analysis
+- Academic Recommendations
 
-## Project Structure
+---
+
+## 📍 Live Bus Tracking
+
+Parents can monitor the live location of the school bus using Google Maps integration.
+
+Features include:
+
+- Real-time GPS Tracking
+- Live Driver Location
+- Interactive Map View
+
+---
+
+## 📷 QR Attendance System
+
+Teachers can scan QR codes generated by the Admin to record attendance instantly.
+
+Features:
+
+- QR Code Generation
+- QR Scanner
+- Real-Time Attendance Updates
+- Attendance Reports
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React Native
+- JavaScript
+- React Navigation
+
+### Backend
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
+
+### AI
+- Groq AI API
+
+### Maps
+- Google Maps
+- Google Location Services
+
+### Other Libraries
+- React Native Vector Icons
+- React Native Camera
+- React Native Maps
+- React Native Geolocation
+- React Native QR Scanner
+
+---
+
+## 👥 User Roles
+
+- Admin
+- Teacher
+- Student
+- Parent
+- Driver
+
+Each role has its own authentication, dashboard, and dedicated functionality.
+
+---
+
+## 📂 Project Structure
 
 ```
-sms/
-├── android/
-├── ios/
-├── src/
-│   ├── components/
-│   ├── screens/
-│   ├── navigation/
-│   ├── utils/
-│   └── firebaseConfig.js
-├── .eslintrc.js
-├── .prettierrc
-├── App.js
-├── package.json
-└── README.md
+src/
+ ├── components/
+ ├── context/
+ ├── navigation/
+ ├── screens/
+ │    ├── admin/
+ │    ├── teacher/
+ │    ├── student/
+ │    ├── parents/
+ │    ├── driver/
+ │    └── authScreens/
+ └── services/
 ```
 
-## Contact
+---
 
-For any queries, contact [Javeria Tahir](mailto:javeria.tahir2003@gmail.com) or refer to the course guidelines.
+## 🚀 Installation
 
-Thank you for using sms!
+### Clone Repository
+
+```bash
+git clone https://github.com/semuhammadawais/AI-based-smart-School-Management-System.git
+```
+
+### Navigate to Project
+
+```bash
+cd AI-based-smart-School-Management-System
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Metro
+
+```bash
+npm start
+```
+
+### Run Android
+
+```bash
+npx react-native run-android
+```
+
+---
+
+## 🔥 Firebase Configuration
+
+Create your own Firebase project.
+
+Add:
+
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
+
+Download your own:
+
+```
+google-services.json
+```
+
+Place it inside:
+
+```
+android/app/
+```
+
+---
+
+## 🤖 AI Configuration
+
+Create a Groq API Key.
+
+Update:
+
+```
+src/services/GroqService.js
+```
+
+with your own API Key.
+
+---
+
+## 📸 Screenshots
+
+Create a folder named:
+
+```
+screenshots/
+```
+
+Add screenshots such as:
+
+- Login Screen
+- Admin Dashboard
+- Teacher Dashboard
+- Student Dashboard
+- Parent Dashboard
+- Driver Dashboard
+- AI Student Mentor
+- AI Teacher Assistant
+- QR Attendance
+- Live Bus Tracking
+- Timetable
+- Results
+
+---
+
+## 🎯 Future Improvements
+
+- Push Notifications
+- Fee Management
+- Online Assignments
+- Video Lectures
+- Online Exams
+- AI Chatbot
+- Parent-Teacher Messaging
+- Cloud Functions
+- Multi-School Support
+- Play Store Release
+
+---
+
+## 📄 License
+
+This project is developed for educational and learning purposes.
+
+Feel free to fork and improve the project.
+
+---
+
+## 👨‍💻 Developer
+
+**Muhammad Awais**
+
+Computer Science Undergraduate
+
+### Skills
+
+- React Native
+- Firebase
+- JavaScript
+- Android Development
+- AI Integration
+- Groq AI
+- Google Maps API
+- REST APIs
+- Git & GitHub
+- DevOps Basics
+- N8N Automation
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+---
+
+# Thank You ❤️
