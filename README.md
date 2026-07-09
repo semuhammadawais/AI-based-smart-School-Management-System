@@ -1,3 +1,26 @@
+## 📱 Application Screenshots
+
+<p align="center">
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_34_30 PM.png" width="220"/>
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_37_23 PM.png" width="220"/>
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_42_33 PM.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_44_40 PM.png" width="220"/>
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_46_39 PM.png" width="220"/>
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_48_35 PM.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_50_38 PM.png" width="220"/>
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_52_50 PM.png" width="220"/>
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_55_34 PM.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/ChatGPT Image Jul 8, 2026, 06_59_04 PM.png" width="220"/>
+</p>
 # 🎓 AI-Based Smart School Management System
 
 An AI-powered School Management System developed as a Final Year Project (FYP) using **React Native** and **Firebase**. The application provides separate portals for Admin, Teachers, Students, Parents, and Drivers, offering real-time communication, attendance management, AI-powered academic assistance, and live school bus tracking.
